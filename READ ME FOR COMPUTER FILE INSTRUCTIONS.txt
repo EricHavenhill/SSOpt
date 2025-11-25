@@ -1,0 +1,46 @@
+-------------------- AUTOLEV --------------------
+Relevant for: Fig. 6
+
+EoM for robot:
+CellSimplifiedModV4FINALFinal.al
+CellSimplifiedModV4FINALFinal.all
+
+CellSimplifiedModV4DruggedFINALFinal.al
+CellSimplifiedModV4DruggedFINALFinal.all
+
+To get Computed Torque Plots with Autolev (Non-Drugged), run in order (note: Windows MATLAB 2021b was used): 
+(1) PlotOfPositionOverAutolevSim.m
+(2) cellsimplifiedmodv4final_autolev_2_matlab.m
+(3) PlotOfPositionOverAutolevSimThirdFile.m
+
+To get Computed Torque Plots with Autolev (Drugged)
+Run:
+(1) PlotOfPositionOverAutolevSimDrugged.m
+(2) cellsimplifiedmodv4druggedm_autolev_2_matlab.m
+(3) PlotOfPositionOverAutolevSimDruggedThirdFile.m
+
+-------------------- Cell Trajectories - DMD and Raw --------------------
+Relevant for: Fig. 4 & Eq. (26)
+
+To get Fig. 4 (a): ExperimentalDataPlots.m
+
+To get Fig. 4 (b): ModelDiscoveryBothCells.m
+
+
+-------------------- MATLAB - Dynamic Optimization --------------------
+Fig. 6: 
+CellRobotNonFullDynamics_Scaled_Improved_V4.m & CellRobotNonFullDynamicsDrugged_Scaled_Improved_V4.m
+
+-------------------- MATLAB - Structural Optimization --------------------
+Fig. 3 StressFiberOptimizationManyAdhesionsV10.m
+
+-------------------- FEBio --------------------
+(N/A on Overleaf)
+
+Fig. 2 ModelWithFeet.fsm, QuarterModelMicroscopic.fsm, and [Inventor Files]
+
+-------------------- Ansys --------------------
+Fig. 7 - 2DCellOptimizationProtruding
+
+
+
